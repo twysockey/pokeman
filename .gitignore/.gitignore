@@ -7,3 +7,16 @@ print("Oak: This is my grandson. He's been your rival since you were a baby....E
 name2=input (" ")
 print("Oak: That's right! I remember now! His name is"+ name2+"!")
 print("Oak:"+name1+"!" "Your very own POKEMON legend is about to unfold! A world of dreams and adventures with POKEMON awaits! Let's go!")
+
+
+
+
+num = int(input("choose number wisely"))
+x = 0
+while(x<num):
+    y = 0
+    while(y<num):
+        y= 1+y
+    x = 1+x
+
+    print("."x)
